@@ -881,7 +881,7 @@ Assim como quando se está trabalhando com *stacks* no Docker Swarm, normalmente
 # kubectl get node nginx -o yaml > meu-primeiro.yaml
 ```
 
-Será criado um novo arquivo chamado ```meu-primeiro.yaml```, resultante do redirecionamento da saída do comando ```kubectl get node nginx -o yaml```.
+Será criado um novo arquivo chamado ```meu-primeiro.yaml```, resultante do redirecionamento da saída do comando ```kubectl get pods nginx -o yaml```.
 
 Abrindo o arquivo com ```vim meu-primeiro.yaml``` (você pode utilizar o editor que você preferir), teremos o seguinte conteúdo:
 
