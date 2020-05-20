@@ -47,7 +47,7 @@ No kubernetes, o ETCD é responsável por registrar todo tipo de informação do
 
 Quando o cluster é iniciado pelo ***kubeadm***, um pod do etcd é criado no master node.
 
-Toda informação que é apresentada ao usuário quando executado "kubect get" são informações armazenadas no ETCD.
+Toda informação que é apresentada ao usuário quando executado "kubectl get" são informações armazenadas no ETCD.
 
 Vejamos se o *pod etcd* foi criado com sucesso com o seguinte comando.
 
